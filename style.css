@@ -1,0 +1,277 @@
+.icon-nav {
+    background-color: #732BFB;
+    width: 44px;
+    height: 44px;
+}
+
+.Hub-color {
+    color: #7F22FE;
+    background-color: #7F22FE;
+}
+
+.img-nav {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #f1f5f9;
+}
+
+.bg {
+    background-color: #EFF5FC;
+}
+
+
+.stat-card {
+    border-radius: 16px;
+    border: 1px solid #f1f5f9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    transition: 0.2s ease;
+}
+
+
+.stat-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon-box {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+}
+
+.icon-box1 {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.25);
+}
+
+.icon-box2 {
+    background: linear-gradient(135deg, #facc15, #f97316);
+    box-shadow: 0 10px 20px rgba(250, 204, 21, 0.25);
+}
+
+.icon-box3 {
+    background: linear-gradient(135deg, #f43f5e, #b91c1c);
+    box-shadow: 0 10px 20px rgba(244, 63, 94, 0.25);
+
+}
+
+
+.stat-label {
+    font-size: 11px;
+    color: #6b7280;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+
+.stat-number {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+
+.no-contacts-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 16px;
+    background: #e5e7eb;
+
+}
+
+.card-header-favorites {
+    background: linear-gradient(90deg, #fef3c7, #ffedd5);
+}
+
+.card-header-emergency {
+    background: linear-gradient(90deg, #ffe4e6, #fee2e2);
+}
+
+.icon-wrapper-favorites {
+    background: linear-gradient(135deg, #facc15, #f97316);
+    box-shadow: 0 4px 10px rgba(250, 204, 21, 0.2);
+}
+
+.icon-wrapper-emergency {
+    background: linear-gradient(135deg, #f43f5e, #b91c1c);
+    box-shadow: 0 4px 10px rgba(244, 63, 94, 0.2);
+}
+
+.icon-wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 0.75rem;
+}
+
+.card-body-scroll {
+    max-height: 320px;
+    overflow: auto;
+}
+
+.search-input {
+    padding-left: 2.5rem;
+}
+
+.search-icon {
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.empty-state {
+    padding: 5rem 0;
+    border-radius: 16px;
+}
+
+
+
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 999;
+  
+}
+
+.inner-form {
+  max-width: 520px;
+  max-height: 580px;
+  overflow-y: auto;
+}
+
+
+.avatar {
+  
+  font-size: 32px;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #ec4899, #9333ea);
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #7c3aed, #4f46e5);
+  border: none;
+}
+
+.btn-gradient:hover {
+  box-shadow: 0 10px 20px rgba(99,102,241,.3);
+}
+
+
+
+
+
+.contact-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.08);
+  max-width: 380px;
+
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-header {
+
+  gap: 12px;
+}
+
+
+
+.info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact-row {
+  gap: 6px;
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.card-details {
+  margin-top: 12px;
+}
+
+.card-group {
+  margin-top: 12px;
+}
+
+.card-group span {
+  background: #ede9fe;
+  color: #6d28d9;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.card-actions {
+  border-top: 1px solid #eee;
+  padding: 10px;
+  background-color: #e9eff5;
+}
+
+.actions-left,
+.actions-right {
+  gap: 8px;
+}
+
+.card-actions button {
+  border: none;
+  background: #f3f4f6;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-item {
+    background-color: #f9fafb;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-item:hover {
+    background-color: #fff7ed; 
+  }
+
+
+
+.contact-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.contact-phone {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.call-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #d1fae5; 
+    color: #059669; 
+    transition: 0.3s;
+    font-size: 12px;
+}
+
+.contact-item:hover .call-btn {
+    background-color: #10b981; 
+    color: #fff;
+}
+
+
