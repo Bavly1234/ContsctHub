@@ -56,22 +56,6 @@ phoneInput.addEventListener("input", function () {
         phoneInput.classList.remove("is-invalid");
     }
 });
-function isDuplicatePhoneForAdd(phone) {
-    for (var i = 0; i < contactList.length; i++) {
-        if (contactList[i].phone === phone) {
-            return true;
-        }
-    }
-    return false;
-}
-function isDuplicatePhoneForAdd(phone) {
-    for (var i = 0; i < contactList.length; i++) {
-        if (contactList[i].phone === phone) {
-            return true;
-        }
-    }
-    return false;
-}
 
 
 
