@@ -83,7 +83,16 @@ function addContact() {
         Swal.fire({ icon: "error", title: "Missing Phone" });
         return;
     }
-
+    if (!egyptPhoneRegex.test(phoneInput.value.trim())) {
+        Swal.fire({
+            icon: "error",
+            title: "Invalid Phone Number",
+            text: "Please enter a valid Egyptian phone number"
+        });
+        phoneInput.classList.add("is-invalid");
+        phoneError.classList.remove("d-none");
+        return;
+    }
     var phone = phoneInput.value.trim();
 
     if (currentEditIndex !== null && currentEditIndex !== undefined) {
